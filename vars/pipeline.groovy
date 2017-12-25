@@ -1,6 +1,13 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'human') {
-  echo "Hello, ${name}."
+    agent 
+    stages {
+        stage('Build') { 
+            steps { 
+                sh 'echo "Hello, ${name}."' 
+            }
+        }
+    }  
 }
 
