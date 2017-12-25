@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def call(String name = 'human') {
-    agent {}
+    agent any
     stages {
         stage('Build') { 
             steps { 
