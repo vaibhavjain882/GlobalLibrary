@@ -6,3 +6,4 @@ This README would normally document whatever steps are necessary to get your app
 
 * Used by Jenkins as Global Library for every Job in Jenkins
 
+# GlobalLibrary
