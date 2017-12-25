@@ -12,9 +12,6 @@
             deleteDir()
 
             try {
-                stage ('Clone') {
-                    checkout scm
-                }
                 stage ('Build') {
                     sh "echo 'building ${config.projectName} ...'"
                 }
